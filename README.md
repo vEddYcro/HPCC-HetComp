@@ -17,7 +17,7 @@ First, we need to shortly describe the procedure of how to prepare these systems
 git clone https://github.com/xianyi/OpenBLAS.git; cd OpenBLAS; mkdir -p /opt/OpenBLAS ; make PREFIX=/opt/OpenBLAS; make PREFIX=/opt/OpenBLAS install
 
 
-# HPCC download and configuration
+# HPCC download and compilation
 wget https://hpcchallenge.org/projectsfiles/hpcc/download/hpcc-1.5.0.tar.gz
 
 # Use the provided configuration file from HPCC makefiles directory for platforms mentioned in the paper
@@ -35,6 +35,7 @@ Make-x86.linux needs to be renamed to Make.linux and copied to HPCC's hpl direct
 After you rename the file in hpl directory, you need to go back to the hpcc directory a level below, and type in the following command to compile hpcc:
 make arch=linux
 
+# Starting the HPCC benchmark
 After the compilation is done, it's time to use the HPCC configs directory and available files.
 They're actually exactly the same, so download any one of them, and save it as a file in hpcc directory named hpccinf.txt.
 
