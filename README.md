@@ -9,9 +9,7 @@ First, we need to shortly describe the procedure of how to prepare these systems
 
 # OpenBLAS compilation and installation
 # as root user
-git clone https://github.com/xianyi/OpenBLAS.git
-cd OpenBLAS; mkdir -p /opt/OpenBLAS
-make PREFIX=/opt/OpenBLAS; make PREFIX=/opt/OpenBLAS install
+git clone https://github.com/xianyi/OpenBLAS.git; cd OpenBLAS; mkdir -p /opt/OpenBLAS ; make PREFIX=/opt/OpenBLAS; make PREFIX=/opt/OpenBLAS install
 
 
 # HPCC download and configuration
