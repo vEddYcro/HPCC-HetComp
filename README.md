@@ -38,6 +38,8 @@ make arch=linux
 # Starting the HPCC benchmark
 After the compilation is done, it's time to use the HPCC configs directory and available files.
 They're actually exactly the same, so download any one of them, and save it as a file in hpcc directory named hpccinf.txt.
+After that, just start the benchmark from hpcc directory by typing: ./hpcc
+
 
 
 
