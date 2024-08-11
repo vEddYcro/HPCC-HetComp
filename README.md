@@ -15,7 +15,7 @@ git clone https://github.com/xianyi/OpenBLAS.git; cd OpenBLAS; mkdir -p /opt/Ope
 # HPCC download and configuration
 wget https://hpcchallenge.org/projectsfiles/hpcc/download/hpcc-1.5.0.tar.gz
 
-# Use the provided configuration file from HPCC makefiles directory for platforms mentioned in the paper
+Use the provided configuration file from HPCC makefiles directory for platforms mentioned in the paper
 # Make-arma72 needs to be renamed to Make.linux and copied to HPCC's hpl directory, if you're working with ARM A72-based platform
 # Make-jetson needs to be renamed to Make.linux and copied to HPCC's hpl directory, if you're working with NVIDIA Jetson TX2 NX-based platform
 # Make-riscv needs to be renamed to Make.linux and copied to HPCC's hpl directory, if you're working with SiFive HiFive Unmatched-based RISC-V platform
